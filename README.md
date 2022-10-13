@@ -17,7 +17,7 @@ De opdracht moet voldoen aan de volgende voorwaarden:
 
 - minimaal 1 `Person`
 - minimaal 1 `Pet`
-- alle methodes worden getest door een unittest
+- alle methodes (behalve de getters en setters) worden getest door een unittest
 
 De `Person` heeft volgende attributen:
 
