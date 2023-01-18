@@ -54,7 +54,6 @@ De `Pet` bevat naast de attributen minimaal:
 
 - een constructor met alle attributen op 'owner' na
 - getters & setters
-- een methode om de owner toe te voegen
 
 
 ## Stappenplan
