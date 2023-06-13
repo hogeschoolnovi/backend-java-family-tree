@@ -26,18 +26,18 @@ De `Person` heeft volgende attributen:
 - lastName
 - sex
 - age
-- mother
-- father
-- siblings
-- children
-- pets
+- mother (Person)
+- father (Person)
+- siblings (lijst)
+- children (lijst)
+- pets (lijst)
 
 De `Pet` heeft minimaal de volgende attributen:
 
 - name
 - age
 - species
-- owner
+- owner (Person)
 
 De `Person` bevat naast de attributen het volgende:
 
@@ -68,10 +68,16 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 4. Maak alle getters & setters.
 
 5. Schrijf de benodigde methodes in de juiste klassen.
+ _Tip voor addParents_: Parents zijn twee Persons
+ _Tip voor addChild, addPet en addSibling_: Voeg toe aan de lijst.
+ _Tip voor getGrandChildren_: Grandchildren zijn de children van de children van een persoon. Gebruik loops.
 
 6. Voeg Maven toe aan het project.
 
-6. Schrijf voor alle methodes unittesten op de juiste locatie in de project structuur.
+7. Schrijf unittesten voor alle getters en setters van zowel Pet als Person. 
+
+8. Schrijf unittesten voor de extra methodes van Person (addPArents, addChild, addPEt, addSibling, getGrandChildren)
+
 
 
 ## Bonusopdrachten
