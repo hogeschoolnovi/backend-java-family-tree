@@ -68,15 +68,18 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 4. Maak alle getters & setters.
 
 5. Schrijf de benodigde methodes in de juiste klassen.
+
  _Tip voor addParents_: Parents zijn twee Persons
+ 
  _Tip voor addChild, addPet en addSibling_: Voeg toe aan de lijst.
- _Tip voor getGrandChildren_: Grandchildren zijn de children van de children van een persoon. Gebruik loops.
+ 
+ _Tip voor getGrandChildren_: Dit is een uitdagende methode. Grandchildren zijn de children van de children van een persoon. Gebruik loops.
 
 6. Voeg Maven toe aan het project.
 
 7. Schrijf unittesten voor alle getters en setters van zowel Pet als Person. 
 
-8. Schrijf unittesten voor de extra methodes van Person (addPArents, addChild, addPEt, addSibling, getGrandChildren)
+8. Schrijf unittesten voor de extra methodes van Person (addPArents, addChild, addPet, addSibling, getGrandChildren)
 
 
 
@@ -86,3 +89,4 @@ Als je de bonusopdrachten maakt, zorg dan dat deze ook getest worden!
 1. Schrijf een methode om alle dieren van de kleinkinderen terug te geven van een persoon. 
 2. Schrijf een methode om alle nichtjes terug te geven van een persoon.
 3. Voeg een partner toe aan de `Person` en implementeer deze partner door de gehele applicatie inclusief getter & setter en benodigde methodes.
+4. Kun je nog meer toevoegingen bedenken om de 'stamboom applicatie' compleet te maken?
