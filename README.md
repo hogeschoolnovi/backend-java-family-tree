@@ -77,7 +77,7 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 
 6. Voeg Maven toe aan het project.
 
-7. Schrijf unittesten voor alle getters en setters van zowel Pet als Person. 
+7. (optioneel) Schrijf unittesten voor alle getters en setters van zowel Pet als Person. 
 
 8. Schrijf unittesten voor de extra methodes van Person (addPArents, addChild, addPet, addSibling, getGrandChildren)
 
